@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./Css/styles.css">
+    <title>HUMAYA por Monica Crichton</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./imagenes/HconDulce100x100.png" alt="Logo de tu empresa">
+                </a>
+            </div>
+            
+            <div class="company-info">
+                <div class="company-name">
+                    HUMAYA
+                </div>
+        
+                <!-- Iconos 100% Orgánico, Sin TACC y Sin Conservantes -->
+                <div class="custom-icons">
+                    <div class="custom-icon">
+                        <img src="./iconos/100% organico.png" alt="100% orgánico">
+                        <p>100% ORGÁNICO</p>
+                    </div>
+                    <div class="custom-icon">
+                        <img src="./iconos/sin-tacc-logo-png-transparente.png" alt="Sin TACC">
+                        <p>SIN TACC</p>
+                    </div>
+                    <div class="custom-icon">
+                        <img src="./iconos/Sin Conservantes.png" alt="Sin Conservantes">
+                        <p>SIN CONSERVANTES</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Iconos de Facebook e Instagram --> 
+            <div class="social-icons">
+                        
+                <a id="facebook-link"><i class="fab fa-facebook"></i></a>
+                <a id="instagram-link"><i class="fab fa-instagram"></i></a>
+
+        </div>
+            </div>
+            
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#Productos">Productos</a></li>
+                <li><a href="#Recetas">Recetas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="inicio-section inicio-section-flex" data-show="false">
+            <div class="inicio-content">
+                                        <h1>DULCES DEL ALMA</h1>
+                        <p>Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
+                
+            </div>
+            
+        </section>
+        
+        
+        <section id="Productos" class="productos-section">
+            <div class="productos-content">
+                <div class="producto">
+                    <div class="producto-img">
+                        <img src="./imagenes/DLTradicional.png" alt="Dulce de Leche Tradicional">
+                    </div>
+                    <div class="producto-info">
+                        <h3>DULCE DE LECHE TRADICIONAL</h3>
+                        <p>Elaboración artesanal de principio a fin, con un sabor intenso, sabor tradicional.</p>
+                        <p>Presentación en frasco de vidrio de 580 grs.</p>
+                        <button class="info-button">+ INFO</button>
+                    </div>
+                </div>
+        
+                <div class="producto">
+                    <div class="producto-img">
+                        <img src="./imagenes/DL Sin Azucar.png" alt="Dulce de Leche Sin Azúcar">
+                    </div>
+                    <div class="producto-info">
+                        <h3>DULCE DE LECHE SIN AZÚCAR</h3>
+                        <p>Elaboración artesanal para cuidar tu silueta sin renunciar a nada, endulzado naturalmente con stevia.</p>
+                        <p>Presentación en frasco de vidrio de 580 grs y 280 grs.</p>
+                        <button class="info-button">+ INFO</button>
+                    </div>
+                </div>
+        
+                <div class="producto">
+                    <div class="producto-img">
+                        <img src="./imagenes/Dulce Choconut.png" alt="Dulce Choconut">
+                    </div>
+                    <div class="producto-info">
+                        <h3>DULCE CHOCONUTT</h3>
+                        <p>Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y pasta de avellanas. Una delicia única.</p>
+                        <p>Presentación en frasco de vidrio de 280 grs.</p>
+                        <button class="info-button">+ INFO</button>
+                    </div>
+                </div>
+        
+                <div class="producto">
+                    <div class="producto-img">
+                        <img src="./imagenes/Alfajor Maicena.png" alt="Alfajores de Maicena">
+                    </div>
+                    <div class="producto-info">
+                        <h3>ALFAJORES DE MAICENA</h3>
+                        <p>Alfajores de dulce con coco rallado, relleno con 2cm de pura dulzura. Pudiendo elegir entre dulce de leche tradicional, light o choconutt.</p>
+                        <p>Presentación en caja de 6 y 12 alfajores.</p>
+                        <button class="info-button">+ INFO</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        
+
+        <section id="Recetas">
+            <h2 class="recetas-titulo">Recetas con Dulce de Leche</h2>
+            <ul class="receta-lista">
+                <!-- Las recetas se mostrarán aquí -->
+            </ul>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+            <form id="contacto-form">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
