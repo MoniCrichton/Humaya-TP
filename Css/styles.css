@@ -1,7 +1,7 @@
 
 /* Estilos generales */
 body {
-    padding: 20px;
+    padding: 00px;
 }
 
 /* Estilos para el encabezado */
@@ -115,7 +115,7 @@ section:not(.inicio-section) {
     background-attachment: fixed;
     color: #fff;
     text-align: center;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,7 +250,7 @@ section:not(.inicio-section) {
 
 /* Estilos para el título en la sección de contacto */
 #contacto h2 {
-    margin-bottom: 10px;
+    margin-bottom: 00px;
 }
 
 /* Estilos para el párrafo en la sección de contacto */
